@@ -1126,6 +1126,10 @@ footer {
     display: none;
   }
 
+  .hero-interest-note {
+    display: none;
+  }
+
   .buyers-grid {
     grid-template-columns: 1fr 1fr;
     gap: 16px;
