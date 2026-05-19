@@ -1069,7 +1069,8 @@ footer {
   .nav-links a {
     display: block;
     padding: 14px 5%;
-    font-size: 0.95rem;
+    font-size: 0.8rem;
+    white-space: nowrap;
   }
 
   .nav-cta {
@@ -1081,6 +1082,18 @@ footer {
 
   .hero-content {
     padding: 130px 5% 80px;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .btn-primary,
+  .btn-secondary {
+    width: 100%;
+    max-width: 280px;
+    text-align: center;
   }
 
   .steps-grid {
