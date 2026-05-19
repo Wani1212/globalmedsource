@@ -1032,6 +1032,11 @@ footer {
 
 
 @media (max-width: 768px) {
+  .tga-notice {
+    font-size: 0.75rem;
+    padding: 8px 16px;
+  }
+
   .why-australia-grid {
     grid-template-columns: 1fr;
   }
@@ -1081,7 +1086,10 @@ footer {
   }
 
   .hero-content {
-    padding: 130px 5% 80px;
+    padding: 130px 24px 80px;
+    text-align: left;
+    width: 100%;
+    box-sizing: border-box;
   }
 
   .hero-buttons {
