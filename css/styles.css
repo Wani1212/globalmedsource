@@ -65,6 +65,11 @@ nav.scrolled {
   text-decoration: none;
 }
 
+.nav-logo img {
+  background: transparent;
+  mix-blend-mode: multiply;
+}
+
 .nav-logo-icon {
   width: 36px;
   height: 36px;
