@@ -44,7 +44,7 @@ nav {
   z-index: 1000;
   background: #F6F9F9;
   padding: 0 5%;
-  height: 180px;
+  height: 72px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -53,7 +53,7 @@ nav {
 }
 
 nav.scrolled {
-  height: 170px;
+  height: 62px;
   background: rgba(235,243,243,0.97);
   backdrop-filter: blur(10px);
 }
@@ -893,7 +893,7 @@ footer {
 /* ── PAGE HERO (inner pages) ── */
 .page-hero {
   background: var(--navy-deep);
-  padding: 200px 5% 64px;
+  padding: 110px 5% 64px;
   position: relative;
   overflow: hidden;
 }
@@ -1037,16 +1037,12 @@ footer {
 
 
 @media (max-width: 768px) {
-  nav {
-    height: 120px;
-  }
-
   .nav-logo img {
     height: 100px;
   }
 
   .tga-notice {
-    margin-top: 120px;
+    margin-top: 72px;
     font-size: 0.75rem;
     padding: 8px 16px;
   }
