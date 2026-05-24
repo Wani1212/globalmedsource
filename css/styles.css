@@ -1039,7 +1039,8 @@ footer {
 @media (max-width: 768px) {
   nav {
     height: auto;
-    padding: 6px 5%;
+    min-height: 60px;
+    padding: 4px 5%;
   }
 
   .nav-logo img {
@@ -1047,7 +1048,7 @@ footer {
   }
 
   .tga-notice {
-    margin-top: 92px;
+    margin-top: 88px;
     font-size: 0.75rem;
     padding: 8px 16px;
   }
